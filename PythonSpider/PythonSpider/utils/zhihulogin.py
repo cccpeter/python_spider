@@ -94,7 +94,7 @@ def zhihu_login(account, password):
     response_text = session.post(post_url, data=post_data, headers=header)
     session.cookies.save()
 
-zhihu_login("13217554571", "cpd123456")
+zhihu_login("xxx", "xxxx")
 # get_index()
 is_login()
 
